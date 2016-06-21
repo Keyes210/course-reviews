@@ -34,6 +34,18 @@ public class Sql2oCourseDAO implements CourseDAO{
     }
 
     public List<Course> findAll() {
-        return null;
+        try(Connection conn = sql2o.open()){
+            return conn.createQuery("SELECT * FROM courses")
+                    .executeAndFetch(Course.class);
+        }
+    }
+
+    @Override
+    public Course findById(int id) {
+        try (Connection conn = sql2o.open()){
+            return conn.createQuery("SELECT * FROM courses WHERE id = :id")
+                    .addParameter("id", id)
+                    .executeAndFetchFirst(Course.class);
+        }
     }
 }
