@@ -1,4 +1,4 @@
-package model;
+package com.alexlowe.courses.model;
 
 /**
  * Created by Keyes on 6/20/2016.

@@ -1,8 +1,7 @@
-package dao;
+package com.alexlowe.courses.dao;
 
-import exc.DaoException;
-import model.Course;
-import model.Review;
+import com.alexlowe.courses.exc.DaoException;
+import com.alexlowe.courses.model.Review;
 
 import java.util.List;
 

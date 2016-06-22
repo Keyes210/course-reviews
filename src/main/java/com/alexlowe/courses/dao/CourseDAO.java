@@ -1,7 +1,7 @@
-package dao;
+package com.alexlowe.courses.dao;
 
-import exc.DaoException;
-import model.Course;
+import com.alexlowe.courses.exc.DaoException;
+import com.alexlowe.courses.model.Course;
 
 import java.util.List;
 

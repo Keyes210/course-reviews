@@ -1,7 +1,7 @@
-package dao;
+package com.alexlowe.courses.dao;
 
-import exc.DaoException;
-import model.Course;
+import com.alexlowe.courses.exc.DaoException;
+import com.alexlowe.courses.model.Course;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;

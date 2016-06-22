@@ -1,4 +1,4 @@
-package exc;
+package com.alexlowe.courses.exc;
 
 /**
  * Created by Keyes on 6/20/2016.

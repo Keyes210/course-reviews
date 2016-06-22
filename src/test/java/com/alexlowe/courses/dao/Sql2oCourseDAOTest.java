@@ -1,6 +1,6 @@
-package dao;
+package com.alexlowe.courses.dao;
 
-import model.Course;
+import com.alexlowe.courses.model.Course;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,10 +10,9 @@ import org.sql2o.Sql2o;
 import static org.junit.Assert.*;
 
 /**
- * Created by Keyes on 6/20/2016.
+ * Created by Keyes on 6/21/2016.
  */
 public class Sql2oCourseDAOTest {
-
     private Sql2oCourseDAO dao;
     private Connection conn;
 
